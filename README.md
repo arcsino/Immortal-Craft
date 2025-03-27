@@ -1,2 +1,2 @@
-# Immortal-Cloud
+# Immortal-Craft
 Immortal Craft Resource Packs
