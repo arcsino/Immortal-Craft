@@ -1,2 +1,2 @@
 # Immortal-Craft
-Immortal Craft Resource Packs
+Distribution of Immortal Craft Resource Packs.
