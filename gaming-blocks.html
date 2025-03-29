@@ -42,24 +42,37 @@
         </div>
         <div class="row justify-content-center pt-4">
             <!-- description and Notes -->
-            <div class="col-12 col-md-7 col-lg-6 pe-4">
+            <div class="col-12 col-md-7 col-lg-6">
                 <p class="fs-4">特定のブロックをゲーミングPCのようにキラキラさせるリソースパックです。</p>
-                <p>対応ブロック一覧</p>
-                <ul class="list-group mx-3 mb-4">
-                    <li class="list-group-item">ancient_debris</li>
-                    <li class="list-group-item">crying_obsidian</li>
-                    <li class="list-group-item">deepslate_diamond_ore</li>
-                    <li class="list-group-item">deepslate_redstone_ore</li>
-                    <li class="list-group-item">diamond_ore</li>
-                    <li class="list-group-item">obsidian</li>
-                    <li class="list-group-item">redstone_ore</li>
-                </ul>
+                <div class="accordion mb-4" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                対応ブロック一覧
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body p-0 px-3">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">ancient_debris</li>
+                                    <li class="list-group-item">crying_obsidian</li>
+                                    <li class="list-group-item">deepslate_diamond_ore</li>
+                                    <li class="list-group-item">deepslate_redstone_ore</li>
+                                    <li class="list-group-item">diamond_ore</li>
+                                    <li class="list-group-item">obsidian</li>
+                                    <li class="list-group-item">redstone_ore</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="d-none d-lg-block col-lg-1"></div>
             <!-- files list -->
-            <div class="col-12 col-md-5 col-lg-4 py-2 py-md-0">
+            <div class="col-12 col-md-5 col-lg-4 mb-4">
                 <div class="list-group">
                     <a class="list-group-item list-group-item-action disabled bg-danger text-light">--version</a>
-                    <a href="./rps/gaming-blocks/Gaming Blocks v0.0.0.zip" download="Gaming Blocks v0.0.0.zip" class="list-group-item list-group-item-action"><i class="bi bi-file-earmark-zip me-2"></i>Gaming Blocks v0.0.0.zip</a>
+                    <a href="./rps/gaming-blocks/Gaming Blocks v1.0.0.zip" download="Gaming Blocks v1.0.0.zip" class="list-group-item list-group-item-action"><i class="bi bi-file-earmark-zip me-2"></i>Gaming Blocks v1.0.0.zip</a>
                 </div>
             </div>
         </div>
